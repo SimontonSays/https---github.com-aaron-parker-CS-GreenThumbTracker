@@ -68,7 +68,7 @@ for tables, create_query in tables.items():
     cursor.execute(create_query)
     print(f"Table '{tables}' created succesfully.")
 
-# Commit changes
+# Commit
 connection.commit()
 cursor.close()
 print("All tables have been successfully created.")
